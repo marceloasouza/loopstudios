@@ -1,0 +1,252 @@
+@media (min-width: 740px) and (max-width: 980px) {
+  .header-menu {
+    padding-left: 30px;
+  }
+  .logo h1 {
+    font-size: 1.5em;
+  }
+  #nav {
+    padding-right: 30px;
+  }
+  .text {
+    margin: 180px auto;
+    padding: 0 20px;
+  }
+  .text p {
+    font-size: 2.5em;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Interactive */
+
+  .interactive {
+    display: block;
+    margin-top: 0px;
+  }
+  .interactive-img {
+    margin: 0px auto;
+    padding-top: 40px;
+  }
+  .interactive-img img {
+    max-width: 100%;
+    height: auto;
+  }
+  .interactive-txt {
+    position: static;
+    max-width: 100%;
+    text-align: center;
+  }
+  .interactive-txt h2 {
+    text-align: center;
+    font-size: 2.2em;
+  }
+  .interactive-txt p {
+    padding: 0;
+    text-align: center;
+    font-size: 0.875em;
+  }
+  .creations h2 {
+    font-size: 1.5em;
+  }
+  .products {
+    padding: 0 40px;
+    align-items: center;
+  }
+
+  /* Projects */
+
+  .projects-container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projects-img:nth-child(1),
+  .projects-img:nth-child(5) {
+    margin-left: 20px;
+  }
+
+  .projects-img:nth-child(4),
+  .projects-img:nth-child(8) {
+    margin-right: 20px;
+  }
+
+  /* footer */
+  .container {
+    padding: 0 30px;
+  }
+  .footer-nav ul li a {
+    font-size: 0.875em;
+  }
+  .redes-sociais p {
+    font-size: 0.875em;
+  }
+}
+
+@media (max-width: 739px) {
+  .header {
+    background: url("../img/mobile/image-hero.jpg");
+    height: auto;
+  }
+  .header-menu {
+    flex-direction: row;
+  }
+  .logo h1 {
+    width: 30px;
+    font-size: 0.825em;
+    padding: 7px;
+  }
+
+  /* menu mobile */
+
+  #btn-mobile {
+    display: block;
+    background: transparent;
+    border: 0;
+  }
+  #menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 120px;
+    right: 0px;
+    background: transparent;
+    transition: 0.1s;
+    z-index: 1000;
+    height: 0px;
+  }
+
+  #nav.active #menu {
+    display: block;
+    height: calc(100vem - 70px);
+  }
+
+  #nav ul li {
+    display: block;
+    padding-bottom: 8px;
+  }
+  #nav ul li a:hover {
+    border-bottom: none;
+  }
+  #menu a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+  }
+  .text p {
+    font-size: 2em;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  /* Interactive */
+
+  .interactive-txt {
+    position: relative;
+    display: block;
+    right: 0;
+    padding: 0 25px;
+    max-width: 100%;
+  }
+  .interactive-txt h2 {
+    font-size: 1.75em;
+    text-align: center;
+  }
+  .interactive-txt p {
+    font-size: 1em;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .txt {
+    position: static;
+    font-size: 1.5em;
+    padding-top: 100px;
+  }
+  .img-1 {
+    background: url("../img/mobile/image-deep-earth.jpg") no-repeat center;
+    background-position: cover;
+    width: 100%;
+    height: 170px;
+    margin-left: 0;
+  }
+  .img-2 {
+    background: url("../img/mobile/image-night-arcade.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+    margin-left: 0;
+  }
+  .img-3 {
+    background: url("../img/mobile/image-soccer-team.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+    margin-left: 0;
+  }
+  .img-4 {
+    background: url("../img/mobile/image-grid.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+    margin-left: 0;
+  }
+  .img-5 {
+    background: url("../img/mobile/image-from-above.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+    margin-left: 0;
+  }
+  .img-6 {
+    background: url("../img/mobile/image-pocket-borealis.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+    margin-left: 0;
+  }
+  .img-7 {
+    background: url("../img/mobile/image-curiosity.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+    margin-left: 0;
+  }
+  .img-8 {
+    background: url("../img/mobile/image-fisheye.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+    margin-left: 0;
+  }
+
+  /* creations */
+
+  .creations {
+    display: inline;
+    margin: 20px 0;
+  }
+  .creations h2 {
+    font-size: 1.75em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .btn-products {
+    width: 300px;
+    text-align: center;
+  }
+  .btn {
+    display: inline;
+    padding: 12px 40px;
+  }
+  /* footer */
+  .footer-nav ul li {
+    display: block;
+    text-align: center;
+  }
+  .footer-nav h2 {
+    text-align: center;
+  }
+  .redes-sociais {
+    text-align: center;
+  }
+}
